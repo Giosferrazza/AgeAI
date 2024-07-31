@@ -10,7 +10,7 @@ import requests
 import json
 
 # Set the Replicate API token directly in the script
-os.environ['REPLICATE_API_TOKEN'] = 'r8_J7MOLyJC4b2ut3Jbku6N2SETapu9LUB24ARH6'
+os.environ['REPLICATE_API_TOKEN'] = 'Your_API_Token'
 API_KEY = os.getenv('REPLICATE_API_TOKEN')
 
 def show_page_1():
